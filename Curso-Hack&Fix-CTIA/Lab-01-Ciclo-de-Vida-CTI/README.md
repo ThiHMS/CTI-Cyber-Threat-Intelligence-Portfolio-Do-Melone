@@ -9,7 +9,7 @@ Este laboratório tem como objetivo aplicar as 6 fases do Ciclo de Inteligência
 
 ---
 
-## 🛠️ Mapeamento do Ciclo de Inteligência
+## Mapeamento do Ciclo de Inteligência
 
 ### 1. Planning & Direction (Planejamento e Direção)
 * **Objetivo:** Entender a cadeia de ataque do ransomware DragonForce (operado pelo grupo Scattered Spider) para mitigar e impedir sua propagação futura.
