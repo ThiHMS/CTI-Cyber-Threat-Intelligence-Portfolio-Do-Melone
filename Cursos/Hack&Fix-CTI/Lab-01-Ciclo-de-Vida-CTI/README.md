@@ -39,6 +39,7 @@ Correlação de eventos e contexto da ameaça:
   * *Execution:* Deploy do payload `dragon.exe`.
   * *Lateral Movement:* Ferramentas de tunelamento SSH e movimento lateral via Domain Controllers.
   * *Impact:* Criptografia de sistemas de estoque/logística e exfiltração para dupla extorsão.
+  * *Link para o caso:* https://attack.mitre.org/techniques/T1486/.
 
 ### 5. Dissemination (Disseminação)
 Entrega da inteligência aos stakeholders:
@@ -48,9 +49,7 @@ Entrega da inteligência aos stakeholders:
 ### 6. Feedback (Retroalimentação)
 * **Problema Identificado:** Bloqueio amplo de conexões SSH gerou falsos positivos em tarefas legítimas de manutenção do SOC.
 * **Melhoria para o Próximo Ciclo:** Inclusão de whitelist para IPs de origem conhecidos de nuvem e exigência de *Confidence Score* "Alto" para bloqueio automático de hashes com poucas ocorrências globais (<10x).
-
 ---
-
 ## Autoavaliação do Laboratório
 * **Pontuação:** 10 / 10
 * **Critérios Atendidos:** Mapeamento preciso de IoCs/TTPs, rigor técnico na normalização UTC/MITRE ATT&CK e ciclo de feedback acionável para o SOC.
